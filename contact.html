@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Get Expert Construction Assistance Today &mdash; Marin Republic Construction</title>
+  <meta name="description" content="Reach out to Marin Republic Construction for expert construction and maintenance services in Northern San Francisco Bay. Contact us today for a consultation.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/logo.webp" type="image/webp">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <nav class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="images/logo.webp" alt="Marin Republic Construction" width="120" height="40">
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" style="min-height: 40vh;">
+    <div class="hero-bg">
+      <img src="images/hero-bay.webp" alt="San Francisco Bay at sunset" width="800" height="600">
+    </div>
+    <div class="hero-content">
+      <h1>Request a Consultation</h1>
+      <p>Tell us about your project and we'll get back to you with next steps.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT FORM -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-layout">
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <p>If you're interested in working with us, complete the form with a few details about your project. Tell us the location, give us details of the work, and submit a few photos of what you're interested in having done!</p>
+
+          <div class="contact-detail">
+            <strong>Email</strong>
+            <a href="mailto:cesarcovar@gmail.com">cesarcovar@gmail.com</a>
+          </div>
+          <div class="contact-detail">
+            <strong>Phone</strong>
+            <a href="tel:+14153023855">(415) 302-3855</a>
+          </div>
+          <div class="contact-detail">
+            <strong>Service Area</strong>
+            <p>Greater Northern San Francisco Bay Area</p>
+          </div>
+        </div>
+
+        <!-- FORM: Replace YOUR_FORM_ID with your Formspree form ID -->
+        <form action="https://formspree.io/f/xojyazez" method="POST" enctype="multipart/form-data">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="first-name">First Name *</label>
+              <input type="text" id="first-name" name="first_name" required>
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name *</label>
+              <input type="text" id="last-name" name="last_name" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="address">Address Line 1 *</label>
+            <input type="text" id="address" name="address_line_1" required>
+          </div>
+
+          <div class="form-group">
+            <label for="address2">Address Line 2</label>
+            <input type="text" id="address2" name="address_line_2">
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="city">City *</label>
+              <input type="text" id="city" name="city" required>
+            </div>
+            <div class="form-group">
+              <label for="state">State *</label>
+              <input type="text" id="state" name="state" value="CA" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="zip">ZIP Code *</label>
+              <input type="text" id="zip" name="zip_code" required pattern="[0-9]{5}" inputmode="numeric">
+            </div>
+            <div class="form-group">
+              <label for="start-date">Preferred Start Date *</label>
+              <input type="date" id="start-date" name="preferred_start_date" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="details">Project Details *</label>
+            <textarea id="details" name="project_details" placeholder="Tell us about the work you'd like done..." required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="photos">Upload Photos (optional)</label>
+            <input type="file" id="photos" name="photos" multiple accept="image/*">
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Request</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="images/logo.webp" alt="Marin Republic Construction" width="120" height="40">
+        <p>Northern San Francisco Bay</p>
+      </div>
+      <div class="footer-contact">
+        <p><strong>Email:</strong> <a href="mailto:cesarcovar@gmail.com">cesarcovar@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+14153023855">(415) 302-3855</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 Marin Republic Construction. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script data-goatcounter="https://marinrepublicconstruction.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
